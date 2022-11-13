@@ -1,63 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <body>
-        <head>
-            <title>BBC Home</title>
-            <meta charset="utf-8" content="viewport" width="device-width" intial-scale="1.0">
-            <link rel="stylesheet" href="bbc.css">
-        </head>
-        <header>
-            <div>
-                <h2><span>B</span>&nbsp;<span>B</span>&nbsp;<span>C</span></h2>
-                <ul>
-                    <li>Home</li>
-                    <li>News</li>
-                    <li>Sport</li>
-                    <li>Weather</li>
-                    <li>iPlayer</li>
-                    <li>Sounds</li>
-                    <li>Food</li>
-                    <li>CBeebies</li>
-                    <li>Travel</li>
-                    <li>More...</li>
-                </ul>
-                <form>
-                    Search:
-                    <input type="search" name="username" size="15" max-length="15">
-                    <input type="submit" size="15" max-length="10">
-                </form>
-                <i class="fas fa-search"></i>
-            </div>
-            <h1>Welcome to the BBC</h1>
-        </header>
-        <br>
-        <main>
-            <div class="flex-container">
-                <figure>
-                    <img src="images/news.jpg" alt="newspaper display in window">  
-                    <figcaption>State-of-the-art newspaper<br>
-                        shop opening</figcaption>             
-                </figure>
-                <figure>
-                    <img src="images/laptop.jpg" alt="laptop">
-                    <figcaption>Latest laptop review<br>
-                    brought to you by PC You</figcaption>  
-                </figure>
-                <figure>
-                    <img src="images/hangingbike.jpg" alt="hanging bike">
-                    <figcaption>Bike cafe come to town<br>
-                        brining artists</figcaption>  
-                </figure>
-                <aside>
-                    <h2>Latest stories from around the world</h2>
-                </aside>
-            </div>
-            <section>
-                <h3>Discover the beauty in our world</h3>
-            </section>
-        </main>
-        <footer>
-            <h4>Made by Lorna</h4>
-        </footer>
-    </body>
+  <body>
+    <head>
+      <title>BBC Home</title>
+      <meta
+        charset="utf-8"
+        content="viewport"
+        width="device-width"
+        intial-scale="1.0"
+      />
+      <link rel="stylesheet" href="style.css" />
+    </head>
+<body class="body">
+    <header class="header">
+        <div class="logo-container">
+            <h1 class="logo"><span>B</span>&nbsp;<span>B</span>&nbsp;<span>C</span></h2>
+        </div>
+        <div class="sign-in-container">
+          <p class="person-icon">Icon</p>
+          <a>Sign in</a>
+        </div>
+        <ul class="menu-container">
+            <li><a>Bell</a></li>
+            <li><a>Home</a></li>
+            <li><a>News</a></li>
+            <li><a>Sport</a></li>
+            <li><a>Weather</a></li>
+            <li><a>iPlayer</a></li>
+            <li><a>Sounds</a></li>
+            <li><a>Bitesize</a></li>
+            <li><a>...</a></li>
+        </ul>
+        <form class="form">
+          <input type="search" name="username" size="20" max-length="15" placeholder="Search BBC"/>
+        </form>
+      </div>
+    </header>
+    <main class="main">
+       <h1 class="welcome-message">Welcome to the BBC</h1>
+       <section class="section-wrapper">
+        <figure class="column1">
+            <img src="/images/business.jpg">
+            <figcaption>
+              <h2><span class="live">LIVE</span> Ukrainian flags fly in Kherson after Russian retreat</h2>
+              <p></p>
+            </figcaption>
+          </figure>
+          <figure class="column2">
+            <img src="/images/codejourney.jpg">
+            <figcaption>
+              <h3>Recession looms as economy shrinks</h3>
+              <p>Business 3415</p>
+            </figcaption>
+          </figure>
+          <figure class="column3">
+            <img src="/images/hangingbike.jpg">
+            <figcaption>
+              <h3>'I will be the first person <br>to visit cycling cafe'</h3>
+              <p></p>
+            </figcaption>
+          </figure>
+          <aside class="column4">
+              <div class="top">UK holds Armistice Day two-minute silence</div>
+              <div class="middle">What is a recession and how could it affect me?</div>
+              <div class="bottom">Hancock told Covid rule break 'a slap in the face'</div>
+          </aside>
+       </section>
+    </main>
+ 
+    <!--  
+     
+    <br />
+    <main>
+      <div class="flex-container">
+        <figure>
+          <img src="images/news.jpg" alt="newspaper display in window" />
+          <figcaption>
+            State-of-the-art newspaper<br />
+            shop opening
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/laptop.jpg" alt="laptop" />
+          <figcaption>
+            Latest laptop review<br />
+            brought to you by PC You
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/hangingbike.jpg" alt="hanging bike" />
+          <figcaption>
+            Bike cafe come to town<br />
+            brining artists
+          </figcaption>
+        </figure>
+        <aside>
+          <h2>Latest stories from around the world</h2>
+        </aside>
+      </div>
+      <section>
+        <h3>Discover the beauty in our world</h3>
+      </section>
+    </main>
+    <footer>
+      <h4>Made by Lorna London</h4>
+    </footer>
+  </body>
 </html>
