@@ -72,12 +72,11 @@ input {
 .section-wrapper {
     height: 80vh;
     background-color: rgb(243, 243, 243);
-    margin: 0;
     margin-top: 1%;
     display: flex;
-    flex-wrap: nowrap;
     padding: 1%;
-    justify-content: space-between;
+    background-color: blue;
+    justify-content: space-evenly;
 }
 
 .welcome-message {
@@ -86,7 +85,7 @@ input {
 }
 
 .column1 {
-    width: 490px;
+    width: 450px;
 }
 
 h2 {
@@ -107,7 +106,8 @@ div {
     width: 570px; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-left: 3%;
 }
 
 .column2, .column3 {
