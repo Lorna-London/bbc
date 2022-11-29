@@ -77,6 +77,7 @@ input {
     display: flex;
     flex-wrap: nowrap;
     padding: 1%;
+    justify-content: space-between;
 }
 
 .welcome-message {
@@ -103,10 +104,10 @@ h2 {
 }
 
 div {
-    width: 550px;
+    width: 570px; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .column2, .column3 {
