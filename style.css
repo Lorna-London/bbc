@@ -70,7 +70,7 @@ input {
 }
 
 .section-wrapper {
-    height: 80vh;
+    height: 100vh;
     background-color: rgb(243, 243, 243);
     margin-top: 1%;
     display: flex;
@@ -98,11 +98,12 @@ h2 {
 
 .column1 img {
     width: 465px;
-    height: 270px;
+    height: 200px;
 }
 
-div {
-    width: 520px; 
+.col2 {
+    width: 520px;
+    height: 480px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
