@@ -80,6 +80,7 @@ input {
     display: flex;
     flex-wrap:wrap;
     padding: 1%;
+    justify-content: space-between;
     }
 
 .welcome-message {
