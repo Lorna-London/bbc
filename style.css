@@ -112,6 +112,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
 }
 
 .column2, .column3 {
