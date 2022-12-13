@@ -6,10 +6,13 @@
 }
 
 .body {
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
+    width: 100vw;
     display: flex;
     align-items: center;
     height: 11vh;
@@ -67,6 +70,7 @@ input {
 }
 
 .main {
+    width: 100vw;
 }
 
 .section-wrapper {
@@ -101,7 +105,7 @@ h2 {
     height: 200px;
 }
 
-.col2 {
+.col2and3wrapper {
     width: 520px;
     height: 480px; 
     display: flex;
