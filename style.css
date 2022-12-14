@@ -78,7 +78,7 @@
     margin-top: 1%;
     display: flex;
     padding: 1%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     }
 
 .welcome-message {
@@ -88,6 +88,7 @@
 
 .column1 {
     width: 450px;
+    height:250vh;
 }
 
 h2 {
@@ -116,12 +117,16 @@ h2 {
 .column2, .column3 {
     width: 250px;
     background-color: white;
-    padding: 2%;
+    padding: 0 2%;
 }
 
 .column2 img, .column3 img {
     width: 225px;
     height: 150px;
+}
+
+h3 {
+    margin-bottom: 30px;
 }
 
 .column4 {
