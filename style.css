@@ -12,7 +12,7 @@
 }
 
 .header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     height: 11vh;
@@ -77,9 +77,8 @@
     background-color: rgb(243, 243, 243);
     margin-top: 1%;
     display: flex;
-    flex-wrap:wrap;
     padding: 1%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     }
 
 .welcome-message {
@@ -89,6 +88,7 @@
 
 .column1 {
     width: 450px;
+    height:250vh;
 }
 
 h2 {
@@ -102,7 +102,7 @@ h2 {
 
 .column1 img {
     width: 450px;
-    height: 200px;
+    height: 255px;
 }
 
 .col2and3wrapper {
@@ -117,12 +117,16 @@ h2 {
 .column2, .column3 {
     width: 250px;
     background-color: white;
-    padding: 2%;
+    padding: 0 2%;
 }
 
 .column2 img, .column3 img {
     width: 225px;
     height: 150px;
+}
+
+h3 {
+    margin-bottom: 30px;
 }
 
 .column4 {
@@ -132,7 +136,7 @@ h2 {
 
 .top, .middle, .bottom {
     width: 250px;
-    height: 128px;
+    height: 133px;
     border-bottom: 10px solid rgb(243, 243, 243);
     padding: 5%;
     font-weight: bold;
