@@ -12,7 +12,7 @@
 }
 
 .header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     height: 11vh;
@@ -102,7 +102,7 @@ h2 {
 
 .column1 img {
     width: 450px;
-    height: 250px;
+    height: 255px;
 }
 
 .col2and3wrapper {
