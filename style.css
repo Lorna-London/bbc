@@ -79,7 +79,6 @@
     background-color: rgb(243, 243, 243);
     margin-top: 1%;
     display: flex;
-    flex-wrap: wrap;
     padding: 1%;
     justify-content: space-evenly;
     }
@@ -158,7 +157,6 @@ figcaption p {
     background-image: url(images/footballstadium.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 5%;
 }
 
 .picture img {
