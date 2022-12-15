@@ -6,6 +6,7 @@
 }
 
 .body {
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
