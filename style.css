@@ -138,27 +138,26 @@ figcaption h3 {
 }
 
 figcaption p {
-    padding-bottom: 15px;
+    padding-bottom: 5%;
 }
 
 .column4 {
-    height: 580px;
+    height: 550px;
     background-color: white;
 }
 
 .top, .middle, .bottom {
     width: 250px;
-    height: 145.5px;
+    height: 138.6px;
     border-bottom: 10px solid rgb(243, 243, 243);
     padding: 5%;
     font-weight: bold;
 }
 
-.picture {
+.big-picture {
     width: 100%;
-    height: 400px;
-    background-color: magenta;
-    background-image: url(images/santosfootball.jpg);
+    height: 60vh;
+    background-image: url(images/santos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
