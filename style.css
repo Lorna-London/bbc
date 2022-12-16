@@ -6,13 +6,14 @@
 }
 
 .body {
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     height: 11vh;
@@ -70,13 +71,17 @@
 
 .main {
     width: 100vw;
+    height: 100vh;
+    /*background-color: aqua;*/
 }
 
 .section-wrapper {
-    height: 100vh;
+    height: 610px;
     background-color: rgb(243, 243, 243);
     margin-top: 1%;
     display: flex;
+    flex-wrap: wrap
+    ;
     padding: 1%;
     justify-content: space-evenly;
     }
@@ -102,7 +107,7 @@ h2 {
 
 .column1 img {
     width: 450px;
-    height: 250px;
+    height: 255px;
 }
 
 .col2and3wrapper {
@@ -117,15 +122,18 @@ h2 {
 .column2, .column3 {
     width: 250px;
     background-color: white;
-    padding: 0 2%;
 }
 
 .column2 img, .column3 img {
-    width: 225px;
+    width: 250px;
     height: 150px;
 }
 
-h3 {
+figcaption {
+    padding: 2% 5%;
+}
+
+figcaption h3 {
     margin-bottom: 30px;
 }
 
@@ -153,3 +161,4 @@ figcaption p {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
