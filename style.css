@@ -76,12 +76,11 @@
 }
 
 .section-wrapper {
-    height: 610px;
+    height: auto;
     background-color: rgb(243, 243, 243);
     margin-top: 1%;
     display: flex;
-    flex-wrap: wrap
-    ;
+    flex-wrap: wrap;
     padding: 1%;
     justify-content: space-evenly;
     }
@@ -93,7 +92,7 @@
 
 .column1 {
     width: 450px;
-    height:250vh;
+    height: auto;
 }
 
 h2 {
@@ -112,7 +111,7 @@ h2 {
 
 .col2and3wrapper {
     width: 520px;
-    height: 480px; 
+    height: auto; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -160,5 +159,6 @@ figcaption p {
     background-image: url(images/santos.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: teal;
 }
 
