@@ -127,10 +127,14 @@ h2 {
 
 h3 {
     margin-bottom: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 figcaption p {
-    padding-bottom: 5%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .column4 {
