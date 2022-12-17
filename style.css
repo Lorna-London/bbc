@@ -118,11 +118,10 @@ h2 {
 .column2, .column3 {
     width: 250px;
     background-color: white;
-    padding: 0 2%;
 }
 
 .column2 img, .column3 img {
-    width: 225px;
+    width: 250px;
     height: 150px;
 }
 
@@ -135,13 +134,13 @@ figcaption p {
 }
 
 .column4 {
-    height: 550px;
+    height: 555px;
     background-color: white;
 }
 
-.top, .middle, .bottom {
+.box {
     width: 250px;
-    height: 138.6px;
+    height: 141px;
     border-bottom: 10px solid rgb(243, 243, 243);
     padding: 5%;
     font-weight: bold;
@@ -149,8 +148,8 @@ figcaption p {
 
 .big-picture {
     width: 100%;
-    height: 60vh;
-    background-image: url(images/santos.jpg);
+    height: 400px;
+    background-image: url(images/santos2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: teal;
