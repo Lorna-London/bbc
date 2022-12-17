@@ -73,10 +73,11 @@
 }
 
 .section-wrapper {
-    height: 100vh;
+    height: auto;
     background-color: rgb(243, 243, 243);
     margin-top: 1%;
     display: flex;
+    flex-wrap: wrap;
     padding: 1%;
     justify-content: space-evenly;
     }
@@ -88,7 +89,7 @@
 
 .column1 {
     width: 450px;
-    height:250vh;
+    height: auto;
 }
 
 h2 {
@@ -107,7 +108,7 @@ h2 {
 
 .col2and3wrapper {
     width: 520px;
-    height: 480px; 
+    height: auto; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
