@@ -1,160 +1,74 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border;
     margin: 0;
     padding: 0;
-    list-style-type: none;
-}
-
-.body {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.header {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    height: 11vh;
-    border-bottom: solid 1px rgb(199, 199, 199);
-    padding: 0.5%;
-}
-
-.logo-container {
-    width: 10vw;
-}
-
-.logo {
-    font-size: 1.6rem;
-    text-align: center;
-}
-
-.logo span {
-    background-color: black;
-    color: white;
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
-.sign-in-container {
-    display: flex;
-    align-items: center;
-    width: 15vw;
-    gap: 5%;
-}
-
-.sign-in-container a {
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-
-.menu-container {
-    width: 50vw;
-    display: inline-flex;
-    align-items: center;
-    gap: 5%;
-}
-
-.menu-container a {
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-
-.search-box {
-    padding: 7%;
-    background-color: rgb(243, 239, 239);
-    border: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.main {
-    width: 100vw;
-}
-
-.section-wrapper {
-    height: auto;
-    background-color: rgb(243, 243, 243);
-    margin-top: 1%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1%;
-    justify-content: space-evenly;
-    }
-
-.welcome-message {
-    padding-top: 1%;
-    padding-left: 1%;
-}
-
-.column1 {
-    width: 450px;
-    height: auto;
-}
-
-h2 {
-    font-size: 1.8rem;
-}
-
-.live {
-    color: teal;
-    font-size: 1.8rem;
-}
-
-.column1 img {
-    width: 450px;
-    height: 250px;
-}
-
-.col2and3wrapper {
-    width: 520px;
-    height: auto; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-.column2, .column3 {
-    width: 250px;
-    background-color: white;
-}
-
-.column2 img, .column3 img {
-    width: 250px;
-    height: 150px;
-}
-
-h3 {
-    margin-bottom: 30px;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-figcaption p {
-    padding-bottom: 4%;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.column4 {
-    height: 555px;
-    background-color: white;
-}
-
-.box {
-    width: 250px;
-    height: 141px;
-    border-bottom: 10px solid rgb(243, 243, 243);
-    padding: 5%;
-    font-weight: bold;
-}
-
-.big-picture {
+  }
+  
+  body {
     width: 100%;
-    height: 400px;
-    background-image: url(images/santos2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: teal;
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 100vw 100vw 100vw 100vw 100vw;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  header {
+    width: 100vw;
+    height: 15vh;
+    background-color: blue;
+    grid-column: 1/span 5;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+  
+  main {
+    height: 60vh;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    width: 100vw;
+    height: 60vh;
+    background-color: purple;
+  }
+
+  article {
+    width: 100vw;
+    height: 60vh;
+    background-color: white;
+    color: black;
+  }
+  
+  aside {
+    width: 100vw;
+    height: 60vh;
+    background-color: green;
+  }
+  
+  figure {
+    width: 100vw;
+    height: 25vh;
+    background-color: orange;
+  }
+  
+ @media only screen and (min-width: 600px) {
+    article, aside {
+     width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    section {
+     width: 45vw;
+    }
+    article {
+        width: 30vw;
+    }
+    aside {
+        width: 25vw;
+    }
 }
