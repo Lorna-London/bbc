@@ -66,13 +66,13 @@
 
 @media only screen and (min-width: 900px) {
     section {
-     width: 45vw;
+     width: 40vw;
     }
     article {
-        width: 30vw;
+        width: 40vw;
     }
     aside {
-        width: 25vw;
+        width: 20vw;
     }
 }
 
