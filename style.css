@@ -1,5 +1,5 @@
 * {
-    box-sizing: border;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
@@ -11,6 +11,7 @@
     grid-template-columns: 100vw 100vw 100vw 100vw 100vw;
     justify-content: space-between;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   header {
@@ -20,7 +21,6 @@
     grid-column: 1/span 5;
     display: flex;
     justify-content: space-between;
-    
     }
   
   main {
@@ -28,6 +28,10 @@
     background-color: red;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  header, section, article, aside, figure {
+    padding: 20px;
   }
   
   section {
