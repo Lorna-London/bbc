@@ -17,18 +17,40 @@
   header {
     width: 100vw;
     height: 15vh;
-    background-color: blue;
+    background-color: white;
     grid-column: 1/span 5;
     display: flex;
     justify-content: space-between;
+    color: black;
+  }
+
+  .logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+  }
+
+  span {
+    margin-right: 5%;
+    border: 1px solid white;
+    background-color: black;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .menu {
+    font-size: larger;
+    font-weight: 700;
   }
   
   main {
     height: auto;
-    background-color: red;
+    background-color: rgb(243, 243, 243);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
+    padding-top: 1%;
   }
 
   header, section, article, aside, footer {
@@ -57,7 +79,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
   }
 
   .article-div {
@@ -83,13 +105,18 @@
   
   footer {
     width: 100%;
-    height: auto;
+    height: fit-content;
     background-color: orange;
+  }
+
+  .footer-img {
+    width: 90vw;
+    height: 30vw;
   }
   
  @media only screen and (min-width: 768px) {
     article, aside {
-     width: 50vw;
+     width: 100vw;
     }
 }
 
