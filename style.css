@@ -120,20 +120,20 @@
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
     section {
      width: 40vw;
     }
     article {
-        width: 30vw;
+        width: 31vw;
     }
     aside {
         width: 25vw;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+/*@media only screen and (min-width: 1500px) {
   article {
     width: 31vw;
   }
-}
+}*/
