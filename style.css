@@ -30,7 +30,7 @@
     font-weight: 600;
   }
 
-  span {
+  .bbc-word {
     margin-right: 5%;
     border: 1px solid white;
     background-color: black;
@@ -69,6 +69,10 @@
     background-image: url(images/business.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    }
+
+    .live-word {
+      color: teal;
     }
 
   article {
@@ -131,9 +135,3 @@
         width: 25vw;
     }
 }
-
-/*@media only screen and (min-width: 1500px) {
-  article {
-    width: 31vw;
-  }
-}*/
