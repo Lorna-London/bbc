@@ -92,6 +92,17 @@
     background-color: chartreuse;
   }
 
+  .box {
+    width: 100%;
+    height: auto;
+    background-color: chocolate;
+  }
+
+  .article-img {
+    width: 100%;
+    height: 100px;
+  }
+
   aside {
     width: 100vw;
     height: auto;
