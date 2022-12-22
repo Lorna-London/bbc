@@ -137,12 +137,12 @@
 
 @media only screen and (min-width: 1200px) {
     section {
-     width: 40vw;
+     width: 35vw;
     }
     article {
-        width: 31vw;
+        width: 40vw;
     }
     aside {
-        width: 25vw;
+        width: 20vw;
     }
 }
