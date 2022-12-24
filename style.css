@@ -59,7 +59,6 @@
     display: inline-flex;
     align-items: center;
     gap: 5%;
-    /*overflow: hidden;*/
     background-color: blueviolet;
 }
 
@@ -82,74 +81,64 @@
 
 .main {
     width: 100vw;
+    height: auto;
 }
 
-.section-wrapper {
-    width: 100vw;
-    height: auto;
-    background-color: rgb(243, 243, 243);
-    margin-top: 1%;
-    padding: 1%;
-    justify-content: space-evenly;
-    }
-
 .welcome-message {
+    width: 100%;
     padding-top: 1%;
     padding-left: 1%;
 }
 
-.column1 {
+.left-panel {
     width: 100vw;
     height: auto;
+    background-color: yellow;
+    display: block;
 }
 
-h2 {
-    font-size: 1.8rem;
+.left-img-container {
+
 }
 
-.live {
+.left-panel img {
+    width: 100%;
+    height: 520px;
+}
+
+.left-panel-h2 {
     color: teal;
     font-size: 1.8rem;
 }
 
-.column1 img {
-    width: 100%;     /*450px; */
-    height: 500px;
-}
-
-.col2and3wrapper {
-    width: 100vw;    /*520px*/
+.middle-panel {
+    width: 100vw;    
     height: auto; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2%;
+    display: block; 
+    background-color:cornflowerblue;
 }
 
-.column2, .column3 {
+.middle-img-container {
+
+}
+
+.middle-panel-img {
     width: 100%;
+    height: 500px;
     background-color: white;
     margin-bottom: 2%;
 }
 
-.column2 img, .column3 img {
-    width: 100%;
-    height: 500px;
+.middle-panel-h3 {
+
+ 
 }
 
-h3 {
-    margin-bottom: 30px;
-    padding-left: 4%;
-    padding-right: 4%;
+.middle-panel-p  {
+   
 }
 
-figcaption p {
-    padding-bottom: 4%;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.column4wrapper {
+.right-panel {
     width: 100vw;
     height: auto;
     background-color: white;
@@ -157,7 +146,7 @@ figcaption p {
     margin-top: 2%;
 }
 
-.box {
+.right-panel-box {
     width: 250px;
     height: 141px;
     border-bottom: 10px solid rgb(243, 243, 243);
@@ -165,7 +154,7 @@ figcaption p {
     font-weight: bold;
 }
 
-.big-picture {
+.banner-image {
     width: 100%;
     height: 400px;
     background-image: url(images/santos2.jpg);
