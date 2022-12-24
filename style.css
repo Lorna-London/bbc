@@ -73,11 +73,10 @@
 }
 
 .section-wrapper {
+    width: 100vw;
     height: auto;
     background-color: rgb(243, 243, 243);
     margin-top: 1%;
-    display: flex;
-    flex-wrap: wrap;
     padding: 1%;
     justify-content: space-evenly;
     }
@@ -102,27 +101,28 @@ h2 {
 }
 
 .column1 img {
-    width: 450px;
+    width: 100vw;     /*450px; */
     height: 250px;
 }
 
 .col2and3wrapper {
-    width: 520px;
+    width: 100vw;    /*520px*/
     height: auto; 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 2%;
 }
 
 .column2, .column3 {
-    width: 250px;
+    width: 100vw;
     background-color: white;
+    margin-bottom: 2%;
 }
 
 .column2 img, .column3 img {
-    width: 250px;
-    height: 150px;
+    width: 100%;
+    height: 20vh;
 }
 
 h3 {
@@ -137,9 +137,12 @@ figcaption p {
     padding-right: 4%;
 }
 
-.column4 {
-    height: 555px;
+.column4wrapper {
+    width: 100vw;
+    height: auto;
     background-color: white;
+    display: flex;
+    margin-top: 2%;
 }
 
 .box {
@@ -157,4 +160,15 @@ figcaption p {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: teal;
+    margin-top: 2%;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1200px) {
+  
 }
