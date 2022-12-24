@@ -6,8 +6,8 @@
 }
 
 .body {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;
+    flex-wrap: wrap;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,7 +20,7 @@
     padding: 0.5%;
 }
 
-.logo-container {
+/*.logo-container {
     width: 10vw;
 }
 
@@ -53,6 +53,7 @@
     display: inline-flex;
     align-items: center;
     gap: 5%;
+    /*overflow: hidden;*/
 }
 
 .menu-container a {
@@ -66,7 +67,7 @@
     border: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
-}
+}*/
 
 .main {
     width: 100vw;
@@ -87,7 +88,7 @@
 }
 
 .column1 {
-    width: 450px;
+    width: 100vw;
     height: auto;
 }
 
@@ -101,8 +102,8 @@ h2 {
 }
 
 .column1 img {
-    width: 100vw;     /*450px; */
-    height: 250px;
+    width: 100%;     /*450px; */
+    height: 500px;
 }
 
 .col2and3wrapper {
@@ -115,14 +116,14 @@ h2 {
 }
 
 .column2, .column3 {
-    width: 100vw;
+    width: 100%;
     background-color: white;
     margin-bottom: 2%;
 }
 
 .column2 img, .column3 img {
     width: 100%;
-    height: 20vh;
+    height: 500px;
 }
 
 h3 {
