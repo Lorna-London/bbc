@@ -10,7 +10,7 @@
     /*display: flex;
     flex-wrap: wrap;*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 .header {
@@ -46,7 +46,7 @@
     align-items: center;
     width: 15vw;
     gap: 5%;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 
 .sign-in-container a {
@@ -84,6 +84,14 @@
     height: auto;
 }
 
+/*.main, .left-panel, .middle-panel, .right-panel, .banner-image {
+    padding-bottom: 2%;
+}*/
+
+.right-panel-box {
+    padding: 5%;
+}
+
 .welcome-message {
     width: 100%;
     padding-top: 1%;
@@ -93,7 +101,7 @@
 .left-panel {
     width: 100vw;
     height: auto;
-    background-color: yellow;
+    /*background-color: yellow;*/
     display: block;
 }
 
@@ -115,7 +123,6 @@
     width: 100vw;    
     height: auto; 
     display: block; 
-    background-color:cornflowerblue;
 }
 
 .middle-img-container {
@@ -143,7 +150,7 @@
     height: auto;
     background-color: white;
     display: flex;
-    margin-top: 2%;
+    /*margin-top: 2%;*/
 }
 
 .right-panel-box {
@@ -161,7 +168,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: teal;
-    margin-top: 2%;
 }
 
 
