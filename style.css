@@ -19,13 +19,11 @@
     align-items: center;
     height: 11vh;
     border-bottom: solid 1px rgb(199, 199, 199);
-    padding: 0 2%;
     gap: 5px;
 }
 
 .logo-container {
     width: 10vw;
-    background-color: chocolate;
 }
 
 .logo {
@@ -88,14 +86,9 @@
     padding-bottom: 2%;
 }*/
 
-.right-panel-box {
-    padding: 5%;
-}
-
 .welcome-message {
     width: 100%;
-    padding-top: 1%;
-    padding-left: 1%;
+    padding: 1%;
 }
 
 .left-panel {
@@ -151,6 +144,7 @@
     background-color: white;
     display: flex;
     justify-content: center;
+    padding-bottom: 5%;
 }
 
 .right-panel-box {
@@ -173,7 +167,7 @@
 }
 
 h1, h2, h3, p {
-    padding: 2%;
+    padding: 5%;
 }
 
 @media screen and (min-width: 768px) {
