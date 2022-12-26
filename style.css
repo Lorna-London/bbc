@@ -81,6 +81,8 @@
 .main {
     width: 100vw;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .welcome-message {
@@ -91,8 +93,11 @@
 .left-panel {
     width: 100vw;
     height: auto;
-    /*background-color: yellow;*/
     display: block;
+}
+
+.left-img-container {
+    width: 100vw;
 }
 
 .left-panel img {
@@ -112,6 +117,10 @@
     width: 100vw;    
     height: auto; 
     display: block; 
+}
+
+.middle-img-container {
+    width: 100vw;
 }
 
 .middle-panel-img {
@@ -157,8 +166,18 @@ h1, h2, h3, p {
 }
 
 @media screen and (min-width: 768px) {
-  
-}
+    .middle-panel {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .middle-img-container {
+        width: 50%;
+    }
+
+ 
+ 
+   }
 
 @media screen and (min-width: 1200px) {
   
