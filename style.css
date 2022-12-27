@@ -157,8 +157,25 @@
 
 .banner-image  {
     width: 100%;
+<<<<<<< Updated upstream
     height: 400px;
     background-color: teal;
+=======
+    height: fit-content;
+    background-color: orange;
+  }
+
+  .footer-img {
+    width: 90vw;
+    height: 30vw;
+  }
+  
+ @media only screen and (min-width: 768px) {
+    article, aside {
+     width: 100vw;
+     background-color: red;
+    }
+>>>>>>> Stashed changes
 }
 
 h1, h2, h3, p {
