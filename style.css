@@ -10,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background-color: aqua;*/
 }
 
 .header {
@@ -18,11 +19,12 @@
     align-items: center;
     height: 11vh;
     border-bottom: solid 1px rgb(199, 199, 199);
-    padding: 0.5%;
+    gap: 5px;
 }
 
 .logo-container {
     width: 10vw;
+    padding-left: 3%;
 }
 
 .logo {
@@ -38,10 +40,12 @@
 }
 
 .sign-in-container {
+    width: 10vw;
     display: flex;
     align-items: center;
     width: 15vw;
     gap: 5%;
+    /*background-color: bisque;*/
 }
 
 .sign-in-container a {
@@ -50,10 +54,11 @@
 }
 
 .menu-container {
-    width: 50vw;
+    width: 60vw;
     display: inline-flex;
     align-items: center;
     gap: 5%;
+    background-color: blueviolet;
 }
 
 .menu-container a {
@@ -61,6 +66,10 @@
     font-weight: bold;
 }
 
+.form {
+    width: 20vw;
+}   
+   
 .search-box {
     padding: 7%;
     background-color: rgb(243, 239, 239);
@@ -71,85 +80,69 @@
 
 .main {
     width: 100vw;
-    height: 100vh;
-    /*background-color: aqua;*/
-}
-
-.section-wrapper {
     height: auto;
-    background-color: rgb(243, 243, 243);
-    margin-top: 1%;
     display: flex;
     flex-wrap: wrap;
-    padding: 1%;
-    justify-content: space-evenly;
-    }
+}
 
 .welcome-message {
-    padding-top: 1%;
-    padding-left: 1%;
+    width: 100%;
+    padding: 3%;
 }
 
-.column1 {
-    width: 450px;
+.left-panel {
+    width: 100vw;
     height: auto;
+    display: block;
 }
 
-h2 {
+.left-img-container {
+    width: 100vw;
+}
+
+.left-panel img {
+    width: 100%;
+    height: 520px;
+}
+
+.left-panel-h2 {
     font-size: 1.8rem;
-}
 
-.live {
+.left-panel .live {
     color: teal;
-    font-size: 1.8rem;
 }
 
-.column1 img {
-    width: 450px;
-    height: 255px;
-}
-
-.col2and3wrapper {
-    width: 520px;
+.middle-panel {
+    width: 100vw;    
     height: auto; 
+    display: block; 
+}
+
+.middle-img-container {
+    width: 100vw;
+}
+
+
+.middle-panel-img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+
+.middle-panel-h3, .middle-panel-p {
+    padding-bottom: 10%;
+}
+
+.right-panel {
+    width: 100vw;
+    height: auto;
+    background-color: white;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    padding-bottom: 5%;
 }
 
-.column2, .column3 {
-    width: 250px;
-    background-color: white;
-}
-
-.column2 img, .column3 img {
-    width: 250px;
-    height: 150px;
-}
-
-figcaption {
-    padding: 2% 5%;
-}
-
-figcaption h3 {
-    margin-bottom: 30px;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-figcaption p {
-    padding-bottom: 4%;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.column4 {
-    height: 555px;
-    background-color: white;
-}
-
-.box {
+.right-panel-box {
     width: 250px;
     height: 141px;
     border-bottom: 10px solid rgb(243, 243, 243);
@@ -157,12 +150,37 @@ figcaption p {
     font-weight: bold;
 }
 
-.big-picture {
+.banner-section {
+    width: 100vw;
+    height: auto;
+}
+
+.banner-image  {
     width: 100%;
     height: 400px;
-    background-image: url(images/santos2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: teal;
+  
+ @media only screen and (min-width: 768px) {
+    article, aside {
+     width: 100vw;
+     background-color: red;
+    }
+
 }
+
+h1, h2, h3, p {
+    padding: 3%;
+}
+
+@media screen and (min-width: 768px) {
+    .middle-panel {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .middle-img-container {
+        width: 50%;
+    }
+ 
+   }
 
