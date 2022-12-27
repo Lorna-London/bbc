@@ -7,14 +7,14 @@
 
 .body {
     width: 100vw;
-    /*display: flex;
-    flex-wrap: wrap;*/
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*background-color: aqua;*/
 }
 
 .header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     height: 11vh;
@@ -107,7 +107,6 @@
 
 .left-panel-h2 {
     font-size: 1.8rem;
-}
 
 .left-panel .live {
     color: teal;
@@ -122,6 +121,7 @@
 .middle-img-container {
     width: 100vw;
 }
+
 
 .middle-panel-img {
     width: 100%;
@@ -157,25 +157,15 @@
 
 .banner-image  {
     width: 100%;
-<<<<<<< Updated upstream
     height: 400px;
     background-color: teal;
-=======
-    height: fit-content;
-    background-color: orange;
-  }
-
-  .footer-img {
-    width: 90vw;
-    height: 30vw;
-  }
   
  @media only screen and (min-width: 768px) {
     article, aside {
      width: 100vw;
      background-color: red;
     }
->>>>>>> Stashed changes
+
 }
 
 h1, h2, h3, p {
@@ -191,11 +181,6 @@ h1, h2, h3, p {
     .middle-img-container {
         width: 50%;
     }
-
- 
  
    }
 
-@media screen and (min-width: 1200px) {
-  
-}
